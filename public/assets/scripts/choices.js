@@ -2147,7 +2147,7 @@
       static isSingleMatch(pattern) {
         return getMatch(pattern, this.singleRegex);
       }
-      search( /*text*/) {}
+      search(/*text*/) {}
     }
     function getMatch(pattern, exp) {
       const matches = pattern.match(exp);
@@ -2726,7 +2726,7 @@
         this._docs.push(doc);
         this._myIndex.add(doc);
       }
-      remove(predicate = ( /* doc, idx */) => false) {
+      remove(predicate = (/* doc, idx */) => false) {
         const results = [];
         for (let i = 0, len = this._docs.length; i < len; i += 1) {
           const doc = this._docs[i];
