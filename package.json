@@ -94,11 +94,11 @@
     "js"
   ],
   "devDependencies": {
-    "@babel/cli": "^7.24.8",
-    "@babel/core": "^7.25.2",
-    "@babel/plugin-transform-object-rest-spread": "^7.24.7",
-    "@babel/preset-env": "^7.25.3",
-    "@babel/preset-typescript": "^7.24.7",
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/plugin-transform-object-rest-spread": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-typescript": "^7.27.1",
     "@playwright/test": "^1.46.0",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-eslint": "^9.0.5",
